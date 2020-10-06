@@ -44,8 +44,8 @@ def getVersion() { return "2.1.9"}
 
 metadata {
     definition (name: "Bloomsky", namespace: "tslagle13", author: "Tim Slagle") {
-        capability "Battery"
-        capability "Illuminance Measurement"
+        //capability "Battery"
+        //capability "Illuminance Measurement"
         capability "Refresh"
         capability "Polling"
         capability "Relative Humidity Measurement"
