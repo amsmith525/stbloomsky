@@ -103,9 +103,6 @@ metadata {
                     [value: 11, color: "#800f87"]
                 ]
         }
-        //valueTile("light", "device.illuminance", decoration: "flat", width: 2, height: 2) {
-            state "default", label:'${currentValue} Lux'
-        //}
         valueTile("humidityLabel", "device.humidity", inactiveLabel: false, width: 2, height: 1) {
             state "default", label:'Humidity'
         }
@@ -118,9 +115,6 @@ metadata {
         valueTile("pressure", "device.pressure", inactiveLabel: false, width: 2, height: 1) {
             state("pressure", label:'${currentValue}')
         }
-        //valueTile("battery", "device.battery", decoration: "flat", width: 2, height: 2) {
-            state "default", label:'Battery: ${currentValue}%'
-        //}
         valueTile("lastUpdated", "device.lastUpdated", decoration: "flat", width: 2, height: 2) {
             state "default", label:'${currentValue}'
         }
